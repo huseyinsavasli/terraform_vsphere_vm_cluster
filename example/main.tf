@@ -58,7 +58,7 @@ locals {
 
 # Call the module
 module "nodes" {
-  source      = "github.com/AndrewSav/terraform_vsphere_vm_cluster"
+  source      = ""
   vm_defaults = local.vm_defaults
   vm_list     = local.vm_list
   # You can specify your own inventory tempalte if you like
